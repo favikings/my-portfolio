@@ -1,0 +1,242 @@
+html,body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+    background: #100e17;
+    height:100%;
+}
+
+h1, h2, h3 {
+    padding:0px;
+    margin: 0;
+}
+
+hr{
+    width:50%;
+    
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+.hero{
+    margin-bottom: 80px;
+    width:100%;
+    
+}
+
+.hero-first{
+   
+}
+.hero-img{
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+.hero-img img{
+    width:200px;
+    border-radius: 50%;
+}
+
+.hero-details{
+    text-align: center;
+    
+}
+
+.hero-details h1{
+    font-weight: 500;
+    font-size:40px;
+    text-transform: uppercase;
+}
+
+.hero-links{
+    width:90%;
+    /* float: left; */
+    margin: 0 auto;
+    margin-bottom: 10px;;
+    background: rgb(34,0,36);
+    background: linear-gradient(90deg, rgb(114, 1, 63) 0%, rgba(121,9,75,1) 35%, rgba(255,0,138,1) 100%);
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    text-decoration: none;
+    color:#fff;
+    font-weight:400;
+    font-size: 25px;
+}
+
+.hero-links:hover{
+    background: rgb(34,0,36);
+    background: linear-gradient(90deg,  rgba(255,0,138,1) 0%, rgb(172, 3, 101) 35%, rgb(153, 1, 84) 100%);
+
+    
+}
+
+/** About ME**/
+.about-section{
+    margin-top:60px;
+}
+
+.about-left img{
+    width:400px;
+}
+
+.info-list strong{
+    color:#dc143c;
+    
+}
+
+/* Skills Section**/
+.skills-section{
+    margin-top: 30px;
+    
+
+}
+
+.skills-section h2{
+    text-align: center;
+    font-weight: 400;
+    font-size:40px;
+    padding-bottom: 10px;
+}
+
+.skills-box{
+    padding:10px;
+    border: 3px solid #dc143c;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.skills-box:hover{
+    background: #dc143c;
+    
+
+}
+
+/* Contact Section */
+.contact-section{
+    margin-top: 30px;
+}
+
+.contact-header h2{
+
+    text-align: center;
+    font-weight: 400;
+    font-size:40px;
+    
+}
+
+.form-group input, textarea{
+    padding:15px 5px;
+    margin:10px 0px;
+    width:100%;
+    font-size:14px;
+    background-color: #2b2738;
+    border:none;
+}
+
+.form-group input[type=submit]{
+    background: #dc143c;
+    color:#fff;
+    font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+/** Media Queries*/
+@media(min-width:900px){
+    .hero-links{
+        float:left;
+        margin:1.0%;
+        width:30%;
+        font-size: 15px;
+    }
+
+    .about-left{
+        text-align: center;
+    }
+    .about-left{
+        float: none;
+        
+        
+    }
+    .about-right{
+        float: none;
+    }
+
+    .clear-fix{
+        clear: both;
+    }
+
+    /*Skills Section */
+    .skills-section{
+       
+        height: 350px;
+        width:100%;
+        
+    
+    }
+    
+    .skills-section h2{
+        text-align: center;
+        font-weight: 400;
+        font-size:40px;
+        padding-bottom: 10px;
+    }
+    
+    .skills-box{
+        float:left;
+        width:40%;
+        border: 3px solid #dc143c;
+        margin: 1.66%;
+        font-size: 20px;
+    }
+
+    /**Contact Section */
+
+
+}
+
+
+
+/*@Media Min-Width:1200px **/
+@media(min-width:1200px){
+    .hero-links{
+        float:left;
+        margin:1.0%;
+        width:30%;
+    }
+
+    .hero-links:hover{
+        background: rgb(34,0,36);
+        background: linear-gradient(90deg,  rgba(255,0,138,1) 0%, rgb(172, 3, 101) 35%, rgb(153, 1, 84) 100%);
+    }
+    .about-section{
+        padding-top: 200px;
+    }
+    .about-left{
+        float:left;
+        width: 50%;
+        
+    }
+    .about-right{
+        float:right;
+        width:50%;
+        
+    }
+
+    /* Skills Section**/
+.skills-section{
+    margin-top: 30px;
+}
+
+
+}
