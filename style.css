@@ -83,7 +83,7 @@ hr{
 }
 
 .info-list strong{
-    color:#dc143c;
+    color:#ff008a;
     
 }
 
@@ -103,14 +103,14 @@ hr{
 
 .skills-box{
     padding:10px;
-    border: 3px solid #dc143c;
+    border: 3px solid #ff008a;
     margin: 10px 0px;
     text-align: center;
     font-size: 20px;
 }
 
 .skills-box:hover{
-    background: #dc143c;
+    background: #ff008a;
     
 
 }
@@ -138,7 +138,7 @@ hr{
 }
 
 .form-group input[type=submit]{
-    background: #dc143c;
+    background: #ff008a;
     color:#fff;
     font-size:14px;
 }
@@ -195,7 +195,7 @@ hr{
     .skills-box{
         float:left;
         width:40%;
-        border: 3px solid #dc143c;
+        border: 3px solid #ff008a;
         margin: 1.66%;
         font-size: 20px;
     }
@@ -217,7 +217,7 @@ hr{
 
     .hero-links:hover{
         background: rgb(34,0,36);
-        background: linear-gradient(90deg,  rgba(255,0,138,1) 0%, rgb(172, 3, 101) 35%, rgb(153, 1, 84) 100%);
+        background: linear-gradient(90deg,  rgb(255, 0, 138) 0%, rgb(172, 3, 101) 35%, rgb(153, 1, 84) 100%);
     }
     .about-section{
         padding-top: 200px;
