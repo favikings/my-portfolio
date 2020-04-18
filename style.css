@@ -146,8 +146,24 @@ hr{
 }
 
 
+footer{
+    /* padding:15px; */
+    width:100%;
+    text-align: center;
+    margin-top: 70px;
+}
 
+.footer-links li{
+    list-style: none;
+    display: inline-block;
+}
 
+.footer-links a{
+    text-decoration: none;
+    color:#ff008a;
+    text-align:center;
+    padding-left: 10px;
+}
 
 
 
